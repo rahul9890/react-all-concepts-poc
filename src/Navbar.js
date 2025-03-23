@@ -6,16 +6,21 @@ export default function Navbar() {
       <div>
         <nav className="navbar navbar-expand-lg bg-body-tertiary">
           <div className="container-fluid">
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                <li class="nav-item">
+            <div className="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul className="navbar-nav me-auto mb-2 mb-lg-0">
+                <li className="nav-item">
                   <Link to="/" className="btn btn-primary m-1">
                     Home
                   </Link>
                 </li>
-                <li class="nav-item">
+                <li className="nav-item">
                   <Link to="/adduser" className="btn btn-primary m-1">
                     AddUser
+                  </Link>
+                </li>
+                <li className="nav-item">
+                  <Link to="/showuser" className="btn btn-primary m-1">
+                    Show Users
                   </Link>
                 </li>
               </ul>
